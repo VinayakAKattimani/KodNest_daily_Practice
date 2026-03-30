@@ -17,7 +17,7 @@ public class Mobile {
         os.osDetails();
     }
 
-    void chargerDetails(Charger ch) {
+    void chargerMobil(Charger ch) {
         ch.chargerDetails();;
     }
 
