@@ -39,22 +39,25 @@ class FighterPlane extends Plane {
 public class Main {
     public static void main(String[] args) {
         System.out.println("\n---- Cargo Plane Details ----");
-        CargoPlane cp = new CargoPlane();
+        Plane cp = new CargoPlane();
         cp.takeOff();
         cp.fly();
         cp.land();
 
         System.out.println("\n---- Passenger Plane Details ----");
-        PassengerPlane pp = new PassengerPlane();
+        Plane pp = new PassengerPlane();
         pp.takeOff();
         pp.fly();
         pp.land();
 
         System.out.println("\n---- Fighter Plane Details ----");
-        FighterPlane fp = new FighterPlane();
+        Plane fp = new FighterPlane();
         fp.takeOff();
         fp.fly();
         fp.land();
+
+
+
     }
 
 }
