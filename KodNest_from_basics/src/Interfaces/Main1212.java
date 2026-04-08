@@ -3,7 +3,7 @@ package Interfaces;
 import java.io.Serializable;
 
 interface Calc11{
-    int i = 0;
+    final static int A = 18;
     void add();
     void sub();
 }
@@ -30,5 +30,12 @@ class MyCalculator extends Calc22 implements Calc11 {
     }
 }
 public class Main1212 {
+    public static void main(String[] args) {
+        MyCalculator mc= new MyCalculator();
+        int age = 15;
+        while(age > mc.A){
+            System.out.println("hudwcc");
+        }
+    }
 //    Serializable
 }
